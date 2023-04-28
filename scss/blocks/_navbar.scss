@@ -1,0 +1,21 @@
+.new-line{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 33px;
+    .new-list{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+    }
+}
+
+
+.new-list:hover{
+    text-decoration: underline;
+    color: #FF6464;
+    transition: 0.5s ease;
+    cursor: pointer;
+}

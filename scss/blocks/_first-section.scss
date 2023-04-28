@@ -1,0 +1,45 @@
+.about-inner{
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.about-him{
+    max-width: 440px;
+    .title-him{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 60px;
+        margin-bottom: 40px;
+    }
+    .new-text{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 38px;
+    }
+
+    .new-link{
+        background: #FF6464;
+        border-radius: 2px;
+        padding: 9px 20px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+}
+
+
+.new-link:hover{
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
